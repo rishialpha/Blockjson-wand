@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "blockjson",
+	"version": "${version}",
+	"name": "Block JSON Wand",
+	"description": "Use an iron shovel as a selection wand: pick two corners and get the JSON for every block in between.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.blockjson.BlockJsonMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
